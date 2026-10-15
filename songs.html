@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SONGS - BLINK PLAYLISTS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+        }
+
+        header {
+            background-color: lightblue;
+            padding: 35px 60px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .logo {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+        }
+
+        .brand-text h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        .brand-text p {
+            font-size: 22px;
+            margin: 15px 0 0 0;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 12px;
+        }
+
+        .search-box input {
+            width: 280px;
+            padding: 13px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: lightpink;
+            border: 1px solid gray;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .search-box button {
+            padding: 13px 28px;
+            font-size: 16px;
+        }
+
+        nav {
+            background-color: lightpink;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1400px;
+            margin: 20px auto;
+        }
+
+        .box {
+            background-color: whitesmoke;
+            border: 2px solid lightblue;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightpink;
+        }
+
+        .album-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: lightpink;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+
+        <div class="brand">
+            <img src="logo.png" alt="Blink Playlists Logo" class="logo">
+
+            <div class="brand-text">
+                <h1>BLINK PLAYLISTS</h1>
+                <p>Your Place for Good Music</p>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search songs, artists...">
+            <button>Search</button>
+        </div>
+
+    </div>
+</header>
+
+<nav>
+    <a href="home.html">HOME</a>
+    <a href="songs.html">SONGS</a>
+    <a href="artists.html">ARTISTS</a>
+    <a href="playlists.html">PLAYLISTS</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+
+<main>
+
+    <div class="box">
+
+        <h2>SONGS</h2>
+
+        <p>Listen to some of our favorite songs.</p>
+
+        <table>
+
+            <tr>
+                <th>Album</th>
+                <th>Song Title</th>
+                <th>Artist</th>
+                <th>Genre</th>
+                <th>MP3</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="arianna.jpeg" class="album-img">
+                </td>
+                <td>Almost Is Never Enough</td>
+                <td>Ariana Grande</td>
+                <td>Pop</td>
+                <td>
+                    <audio controls>
+                        <source src="almost_is_never_enough.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="julie.jpeg" class="album-img">
+                </td>
+                <td>I'll Be There</td>
+                <td>Julie Ann San Jose</td>
+                <td>Pop</td>
+                <td>
+                    <audio controls>
+                        <source src="ill_be_there.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="little.jpg" class="album-img">
+                </td>
+                <td>Woman Like Me</td>
+                <td>Little Mix</td>
+                <td>Pop</td>
+                <td>
+                    <audio controls>
+                        <source src="woman_like_me.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 Blink. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

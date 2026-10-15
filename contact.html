@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONTACT - BLINK PLAYLISTS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+        }
+
+        header {
+            background-color: lightblue;
+            padding: 35px 60px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .logo {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+        }
+
+        .brand-text h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        .brand-text p {
+            font-size: 22px;
+            margin: 15px 0 0 0;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 12px;
+        }
+
+        .search-box input {
+            width: 280px;
+            padding: 13px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: lightpink;
+            border: 1px solid gray;
+            padding: 10px 20px;
+        }
+
+        .search-box button {
+            padding: 13px 28px;
+        }
+
+        nav {
+            background-color: lightpink;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1400px;
+            margin: 20px auto;
+        }
+
+        .box {
+            background-color: whitesmoke;
+            border: 2px solid lightblue;
+            padding: 20px;
+        }
+
+        .contact-form {
+            background-color: #fffaf0;
+            border: 2px solid #f5d6a6;
+            padding: 20px;
+            max-width: 700px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 6px 0 15px 0;
+        }
+
+        .contact-form textarea {
+            height: 120px;
+        }
+
+        footer {
+            background-color: lightpink;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+
+        <div class="brand">
+            <img src="logo.png" class="logo">
+
+            <div class="brand-text">
+                <h1>BLINK PLAYLISTS</h1>
+                <p>Your Place for Good Music</p>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search songs, artists...">
+            <button>Search</button>
+        </div>
+
+    </div>
+</header>
+
+<nav>
+    <a href="home.html">HOME</a>
+    <a href="songs.html">SONGS</a>
+    <a href="artists.html">ARTISTS</a>
+    <a href="playlists.html">PLAYLISTS</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+
+<main>
+
+    <div class="box">
+
+     <center>   <h2>CONTACT US</h2>
+
+        <p>Have a question or suggestion? Send us a message!</p>
+
+        <form class="contact-form">
+
+            <label>Name:</label>
+            <input type="text" placeholder="Type your name...">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Type your email...">
+
+            <label>Subject:</label>
+            <input type="text" placeholder="Type your subject...">
+
+            <label>Message:</label>
+            <textarea placeholder="Type your message..."></textarea>
+
+            <button type="submit">SEND MESSAGE</button>
+
+        </form>
+
+        <h3>Our Contact Information</h3>
+
+        <p>Email: blinkplaylists@gmail.com</p>
+        <p>Phone: 0912-345-6789</p>
+        <p>Location: Cebu City, Philippines</p>
+
+   </center> </div>
+
+</main>
+
+<footer>
+    <p>© 2026 Blink. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
